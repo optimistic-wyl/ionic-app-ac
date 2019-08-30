@@ -1,0 +1,31 @@
+
+1、No Existing Ionic Project
+
+npm install -g ionic
+
+ionic start capApp tabs --capacitor
+
+npx cap init
+
+2、Adding Capacitor: Existing Ionic Project
+
+ionic integrations enable capacitor   /     ionic capacitor add android
+
+npx cap init
+
+--------------以下为以上步骤共同执行
+
+ionic build
+
+npx cap add ios
+npx cap add android
+
+ionic build
+
+npx cap copy                         /      ionic capacitor copy android
+
+npx cap sync
+
+npx cap open ios
+npx cap open android
+  
