@@ -15,12 +15,12 @@ npx cap init
 
 --------------以下为以上步骤共同执行
 
-ionic build
+ionic build------------------此步骤生成www目录及其目录下的文件
 
 npx cap add ios
 npx cap add android
 
-ionic build
+ionic build------------------此步骤生成www目录及其目录下的文件
 
 npx cap copy                         /      ionic capacitor copy android
 
